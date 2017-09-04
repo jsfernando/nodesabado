@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>View Products</title>
+  </head>
+  <body>
+    <ul>
+      {% for item in data %}
+      <li>{{ item.name }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
